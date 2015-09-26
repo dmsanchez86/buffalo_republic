@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+.map_content{
+    position: relative;
+    width: 1200px;
+    
+    .pointers{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+        .pointer{
+            display: inline-block;
+            position: absolute;
+            cursor: pointer;
+            opacity: .5;
+            transition: opacity .25s ease;
+            
+            &:hover,
+            &:focus{
+                opacity: 1;
+            }
+            
+            &.tae{
+                left: 283px;
+                top: 138px;
+            }
+            
+            &.hg{
+                left: 332px;
+                top: 259px;
+            }
+            
+            &.sf{
+                left: 428px;
+                top: 261px;
+            }
+            
+            &.ja{
+                left: 478px;
+                top: 246px;
+            }
+            
+            &.ok{
+                left: 551px;
+                top: 194px;
+            }
+            
+            &.ga{
+                left: 612px;
+                top: 226px;
+            }
+            
+            &.dx{
+                left: 652px;
+                top: 141px;
+            }
+            
+            &.hp{
+                left: 418px;
+                top: 449px;
+            }
+            
+            &.fa{
+                left: 448px;
+                top: 359px;
+            }
+            
+            &.cg{
+                left: 490px;
+                top: 527px;
+            }
+            
+            &.ox{
+                left: 678px;
+                top: 475px;
+            }
+            
+            &.myn{
+                left: 789px;
+                top: 382px;
+            }
+            
+            &.iip{
+                left: 541px;
+                top: 285px;
+            }
+        }
+    }
+    
+    .information{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+        .content_information{
+            background: rgba(149, 102, 45, 0.7);
+            border: 2px solid rgba(149, 102, 45, 1);
+            padding: 1rem 1.6rem .5rem;
+            border-radius: 5px;
+            max-width: 420px;
+            opacity: 0;
+            transition: opacity .5s ease;
+            
+            h3,p{
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+            
+            h3{
+                margin: .25rem 0;
+                color: white;
+                font-size: 1.8rem;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            
+            p{
+                color: white;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.page-id-726 .grid__item.one-whole.palm-one-whole.texto-title-map-desc {
+    overflow-x: auto !important;
+}

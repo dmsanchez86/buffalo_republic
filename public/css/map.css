@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+.map_content {
+  position: relative;
+  width: 1200px; }
+  .map_content .pointers {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+    .map_content .pointers .pointer {
+      display: inline-block;
+      position: absolute;
+      cursor: pointer;
+      opacity: .5;
+      transition: opacity .25s ease; }
+      .map_content .pointers .pointer:hover, .map_content .pointers .pointer:focus {
+        opacity: 1; }
+      .map_content .pointers .pointer.tae {
+        left: 283px;
+        top: 138px; }
+      .map_content .pointers .pointer.hg {
+        left: 332px;
+        top: 259px; }
+      .map_content .pointers .pointer.sf {
+        left: 428px;
+        top: 261px; }
+      .map_content .pointers .pointer.ja {
+        left: 478px;
+        top: 246px; }
+      .map_content .pointers .pointer.ok {
+        left: 551px;
+        top: 194px; }
+      .map_content .pointers .pointer.ga {
+        left: 612px;
+        top: 226px; }
+      .map_content .pointers .pointer.dx {
+        left: 652px;
+        top: 141px; }
+      .map_content .pointers .pointer.hp {
+        left: 418px;
+        top: 449px; }
+      .map_content .pointers .pointer.fa {
+        left: 448px;
+        top: 359px; }
+      .map_content .pointers .pointer.cg {
+        left: 490px;
+        top: 527px; }
+      .map_content .pointers .pointer.ox {
+        left: 678px;
+        top: 475px; }
+      .map_content .pointers .pointer.myn {
+        left: 789px;
+        top: 382px; }
+      .map_content .pointers .pointer.iip {
+        left: 541px;
+        top: 285px; }
+  .map_content .information {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .map_content .information .content_information {
+      background: rgba(149, 102, 45, 0.7);
+      border: 2px solid #95662d;
+      padding: 1rem 1.6rem .5rem;
+      border-radius: 5px;
+      max-width: 420px;
+      opacity: 0;
+      transition: opacity .5s ease; }
+      .map_content .information .content_information h3, .map_content .information .content_information p {
+        font-family: 'Open Sans Condensed', sans-serif; }
+      .map_content .information .content_information h3 {
+        margin: .25rem 0;
+        color: white;
+        font-size: 1.8rem;
+        text-decoration: underline;
+        font-weight: bold; }
+      .map_content .information .content_information p {
+        color: white;
+        font-size: 1.2rem; }
+
+.page-id-726 .grid__item.one-whole.palm-one-whole.texto-title-map-desc {
+  overflow-x: auto !important; }
+
+/*# sourceMappingURL=map.css.map */
