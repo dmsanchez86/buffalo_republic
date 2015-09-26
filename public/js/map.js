@@ -1,3 +1,4 @@
+var i = -100;
 jQuery(document).ready(function(){
     var pointer = jQuery(".pointers .pointer");
     var information = jQuery(".information");
@@ -20,4 +21,14 @@ jQuery(document).ready(function(){
             "display": "none"
         }).find(".content_information").css("opacity","0");
     });
+    
+   jQuery(".menu-list__title").after('<hr class="separator">');
+   
 });
+
+function isScrolledIntoView( element ) {
+    var elementTop    = element.getBoundingClientRect().top,
+        elementBottom = element.getBoundingClientRect().bottom;
+
+    return elementTop >= 0 && elementBottom <= window.innerHeight;
+}

@@ -157,41 +157,9 @@ function wpgrade_callbacks_html5_shim() {
 
 
 
-function addSlider(){ ?>
+function addSlider(){
 	
-	<div class="article__parallax__slider  header--slideshow  js-pixslider"
-		data-imagealigncenter
-		data-imagescale="fill"
-		data-slidertransition="move"
-		data-customArrows="true"
-		
-			<?php
-				echo ' data-slidertransitiondirection="horizontal" ' . PHP_EOL;
-			?>
-		
-			<div class="gallery-item"
-			itemtype="http://schema.org/ImageObject"
-			data-caption="test"
-			data-description="">
-				<img src="https://pixelgrade.com/demos/rosa2/wp-content/uploads/2014/05/vk-drinking.jpg"
-					 class="attachment-blog-big rsImg"
-					 alt="https://pixelgrade.com/demos/rosa2/wp-content/uploads/2014/05/vk-drinking.jpg"
-					 itemprop="contentURL" />
-			</div>
-		
-			<div class="gallery-item"
-			itemtype="http://schema.org/ImageObject"
-			data-caption="test"
-			data-description="">
-				<img src="https://buffalorepublic-heanfig.c9.io/wp-content/uploads/2014/09/1-portada-reservas.jpg" 
-					 class="attachment-blog-big rsImg"
-					 alt="https://pixelgrade.com/demos/rosa2/wp-content/uploads/2014/05/vk-drinking.jpg"
-					 itemprop="contentURL" />
-			</div>
-		
-		</div>
-
-<?php
+	echo do_shortcode("[slider]");
 }
 
 function formularioreservacion(){ ?>

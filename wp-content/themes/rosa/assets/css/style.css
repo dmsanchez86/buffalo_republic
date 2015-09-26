@@ -9164,9 +9164,11 @@ p.menu-list__item-desc {
   margin-top: 36px; }
 
 .promo-box__container {
-  padding: 36px 54px;
+  padding: 73px 54px;
   background-color: #c59d5f;
-  color: white; }
+  color: white; 
+  height: 300px;
+}
   .promo-box.dark .promo-box__container {
     background-color: #262526; }
   .promo-box__container h1, .promo-box__container h2, .promo-box__container .tabs__nav, .promo-box__container h3, .promo-box__container h4, .promo-box__container h5, .promo-box__container h6 {
@@ -11466,7 +11468,7 @@ html body.woocommerce ul.products li.product {
 }
 
 .grid__item.nine-twelfths.palm-one-whole.promo-box p {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 #post-481-title .headline__secondary {
@@ -11478,7 +11480,7 @@ html body.woocommerce ul.products li.product {
 }
 
 .grid__item.nine-twelfths.palm-one-whole.promo-box h4 {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 header#post-123-title {
@@ -11502,4 +11504,29 @@ header#post-123-title {
 
 .grid__item.one-whole.palm-one-whole.titulo-vinos {
     text-align: center;
+}
+
+.wrap-slider .pixcode-slider[data-arrows] .slide{
+	padding:0 !important;
+}
+
+.wrap-slider {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 53px;
+}
+
+.wrap-slider .rsArrow {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 201px;
+}
+
+.wrap-slider img {
+    margin-top: -123px;
+}
+
+.wrap-slider .rsArrowIcn {
+    border-color: white !Important;
 }
