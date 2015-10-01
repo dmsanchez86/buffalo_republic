@@ -344,6 +344,19 @@ function mapa(){ ?>
 			</div>
 		</div>
 	</div>
+	
+	<?php echo do_shortcode('[hr type="line-flower"]'); ?>
+	<?php echo do_shortcode('[heading subtitle="Somos" title="Buffalo Republic"]'); ?>
+
+	<div class="wrap_video">
+		<div class="framevideo" >
+			<iframe class="video_promo" style="height: 260px !important;" height="300" src="https://www.youtube.com/embed/RX_RpeOkPAM" frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+	
+	<?php echo do_shortcode('[hr type="line-flower"]'); ?>
+	
 <?php } ?>
 
 

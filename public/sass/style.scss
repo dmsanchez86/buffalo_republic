@@ -91,7 +91,6 @@
     }
     
     .information{
-        display: none;
         position: absolute;
         left: 0;
         top: 0;
@@ -102,11 +101,12 @@
             padding: 1rem 1.6rem .5rem;
             border-radius: 5px;
             max-width: 420px;
-            opacity: 0;
+            display: none;
             transition: opacity .5s ease;
             
             h3,p{
                 font-family: 'Open Sans Condensed', sans-serif;
+                text-align: left;
             }
             
             h3{
@@ -129,3 +129,9 @@
     overflow-x: auto !important;
     text-align: center;
 }
+
+@media (max-width: 996px){
+    .map_content{
+        display: none;
+    }
+}    

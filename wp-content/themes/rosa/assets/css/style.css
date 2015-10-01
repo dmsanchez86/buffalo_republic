@@ -1116,7 +1116,9 @@ pre mark {
  * Fluid images.
  */
 img {
-  max-width: 100%; }
+  max-width: 100%; 
+  width: 100%;
+}
 
 /**
  * Non-fluid images if you specify `width` and/or `height` attributes.
@@ -9169,6 +9171,12 @@ p.menu-list__item-desc {
   color: white; 
   height: 300px;
 }
+
+@media (max-width: 996px){
+  .promo-box__container{
+    height: auto;
+  }
+}
   .promo-box.dark .promo-box__container {
     background-color: #262526; }
   .promo-box__container h1, .promo-box__container h2, .promo-box__container .tabs__nav, .promo-box__container h3, .promo-box__container h4, .promo-box__container h5, .promo-box__container h6 {
@@ -9277,14 +9285,15 @@ div.mfp-title {
 }
 
   .map__marker:after {
-    content: "";
+    /* content: ""; */
     display: block;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    border: 12px solid transparent;
-    border-top-color: black;
-    margin-left: -12px; }
+    /* position: absolute; */
+    /* top: 100%; */
+    /* left: 50%; */
+    /* border: 12px solid transparent; */
+    /* border-top-color: black; */
+    /* margin-left: -12px; */
+    }
   .map__marker h1, .map__marker h2, .map__marker .tabs__nav, .map__marker h3, .map__marker h4, .map__marker h5, .map__marker h6 {
     margin: 6px 0;
     color: white; }
@@ -11524,9 +11533,28 @@ header#post-123-title {
 }
 
 .wrap-slider img {
-    margin-top: -123px;
+    margin-top: -200px;
 }
 
 .wrap-slider .rsArrowIcn {
     border-color: white !Important;
+}
+
+.framevideo {
+    max-width: 100%;
+    width: 500px;
+    text-align: center;
+    margin: 26px auto;
+    border: 1px solid #643919;
+    padding: 13px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.wrap_video {
+    margin-left: 54px;
+}
+
+.navigation--main .nav--main li a:first-letter {
+    text-transform: uppercase;
 }

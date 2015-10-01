@@ -8,18 +8,15 @@ jQuery(document).ready(function(){
         
         information.css({
             "top": (e.clientY - 50)+"px",
-            "left": (e.clientX - 50)+"px",
-            "display": "block"
-        }).find(".content_information").css("opacity","1");
+            "left": (e.clientX - 50)+"px"
+        }).find(".content_information").fadeIn(1000);
         
         information.find("h3").text(data.title);
         information.find("p").text(data.text);
     });
     
     pointer.mouseleave(function(e){
-        information.css({
-            "display": "none"
-        }).find(".content_information").css("opacity","0");
+        information.find(".content_information").fadeOut(1000);
     });
     
    jQuery(".menu-list__title").after('<hr class="separator">');

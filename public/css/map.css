@@ -56,7 +56,6 @@
         left: 541px;
         top: 285px; }
   .map_content .information {
-    display: none;
     position: absolute;
     left: 0;
     top: 0; }
@@ -66,10 +65,11 @@
       padding: 1rem 1.6rem .5rem;
       border-radius: 5px;
       max-width: 420px;
-      opacity: 0;
+      display: none;
       transition: opacity .5s ease; }
       .map_content .information .content_information h3, .map_content .information .content_information p {
-        font-family: 'Open Sans Condensed', sans-serif; }
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: left; }
       .map_content .information .content_information h3 {
         margin: .25rem 0;
         color: white;
@@ -83,5 +83,9 @@
 .page-id-726 .grid__item.one-whole.palm-one-whole.texto-title-map-desc {
   overflow-x: auto !important;
   text-align: center; }
+
+@media (max-width: 996px) {
+  .map_content {
+    display: none; } }
 
 /*# sourceMappingURL=map.css.map */
